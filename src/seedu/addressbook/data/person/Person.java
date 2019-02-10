@@ -3,7 +3,8 @@ package seedu.addressbook.data.person;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
-
+import java.util.Comparator;
+import java.util.*;
 import seedu.addressbook.data.tag.Tag;
 
 /**

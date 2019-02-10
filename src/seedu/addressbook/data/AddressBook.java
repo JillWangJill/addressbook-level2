@@ -38,6 +38,14 @@ public class AddressBook {
         allPersons.add(toAdd);
     }
 
+
+    /**
+     * Sort the addressbook list according to names' alphabetical order
+     */
+    public void sortAddressBook(){
+        allPersons.sort();
+    }
+
     /**
      * Returns true if an equivalent person exists in the address book.
      */
